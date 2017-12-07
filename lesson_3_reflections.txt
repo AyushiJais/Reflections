@@ -24,7 +24,9 @@ merged later on ,if needed.
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+If a person is going somewhere without internet access and is not ready to merge the
+local and remote repository then we can have both copies seperately and work on both
+seperately as well .
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
