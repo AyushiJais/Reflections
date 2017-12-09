@@ -36,4 +36,6 @@ Using Slack, bitbucket or some google online services but it would be harder
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+When you have two versions of a code, both of which you want to keep or you don't 
+want to merge the codes for some reason or more than one user are working on the code 
+then it can be done in different branches.
