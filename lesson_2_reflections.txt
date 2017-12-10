@@ -11,13 +11,33 @@ working directory to be commited and saved in repository.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+If you add multiple changes after the commit but before adding other changes after
+the first one you add the commit to staging area then only the commit already added 
+in staging area will be added to repository and all the changes made to working 
+directory will reamin intact without affecting staging area or repository .
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Sometimes when you need to diverge your program in two different directions , then
+branching could be used to cate two or more pointers pointing to a commit which could
+be further diverged into different directions.
+
 How do the diagrams help you visualize the branch structure?
+
+Diagrams help me keep track of all the branches and their commits made , hence it 
+would be helpful later to merge.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches means the contents of two different codes would get merged .
+It is represented in that way in the diagram because merging causes the two pointers
+to become one i.e. both point to one branch hence no need to keep seperate pointers .
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Git's automatic merging causes Git to merge two branches in case of no merging conflicts
+Whereas manual merging helps to choose which branch's code we want to keep according to
+our preferences and needs.
